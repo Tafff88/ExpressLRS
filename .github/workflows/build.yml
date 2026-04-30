@@ -1,5 +1,5 @@
 name: Build ExpressLRS
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 jobs:
   build-and-validate-artifacts:
     runs-on: ubuntu-latest
